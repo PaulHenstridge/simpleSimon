@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    z-index:100; 
+}
+
+.row {
+    margin-top: 6%;
+    height : 97%;
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.lower-row {
+    margin-top: 1%;
+    
+}
+.column {
+    float: left;
+    width: 25%;  
+    background-color: black;
+    height: 300px;  
+    border: 2px solid white;
+}
+
+.display {
+    height : 90%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.half {
+    width: 50%;
+    height: 200px;
+    background-color: black;
+    float: left;
+    margin: 3px solid white;
+}
+
+.scorekeeper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    height: 80%;
+   
+}
+
+  .red {
+      background-color: red;
+
+  }
+  .blue {
+      background-color: blue;
+  }
+
+  .yellow {
+      background-color: yellow;
+  }
+
+  .green {
+    background-color: green;
+}
+
+.newstyle {
+   background-color: purple;
+}
+
+.hidden {
+    display: none;
+}
+
+#submit {
+    display: none;
+}
+
+.disptext {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#next {
+    border: 0 auto;
+    color:black;
+}
+
+.nes-text .is-primary {
+    color:black;
+}
+
+
+}
