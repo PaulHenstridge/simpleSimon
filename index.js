@@ -186,7 +186,7 @@ let bestRun = false;
     const speech = (round,calledFrom) => {
         if (calledFrom === 'playSequence'){
             const overToYou = ["Let's see you try that!","Rpeat that then","You're turn!!", "Bet you cant repeat that!", "You're gonna screw it up this time!!", "You got this!", "if anyone can I bet you can do it!","Do you want to see my balls?", "you know what to do!!", "I LOOOVE this game! your turn bitch :-)",
-                                "Go Go go!!!", "What the fuck is wrong with you?",]
+                                "Go Go go!!!", "What the fuck is wrong with you?","Jesus Im so bored..."]
 
             let msg = overToYou[Math.floor(Math.random() * overToYou.length)];
             message.innerHTML = msg;
